@@ -1,0 +1,31 @@
+*{font-family: "Calibri Light";}
+
+body{
+	background: black;
+	color: white;
+}
+header{
+	text-align: center;
+	position: fixed;
+	
+}
+h1{
+	font-style: oblique;
+	font-size: 40px;
+	text-align: middle;
+}
+.menu ul li > a{
+	text-decoration: none !important;
+	list-style: none;
+	color: white;
+	font-style: oblique;
+	font-size: 24px;
+
+}
+.menu ul li :hover{
+	display: inline-block;
+	color: #FFBA38;
+}
+.menu ul li{
+	display: inline-block;
+}
