@@ -4,22 +4,26 @@ body{
 	background: black;
 	color: white;
 }
+/*-- Top of the page --*/
 header{
 	text-align: center;
-	position: fixed;
+	position: relative;
 	
 }
 h1{
 	font-style: oblique;
 	font-size: 40px;
 	text-align: middle;
+	position: relative;
 }
 .menu ul li > a{
 	text-decoration: none !important;
+	text-align: center;
 	list-style: none;
 	color: white;
 	font-style: oblique;
 	font-size: 24px;
+	display: inline-block;
 
 }
 .menu ul li :hover{
@@ -28,4 +32,24 @@ h1{
 }
 .menu ul li{
 	display: inline-block;
+	margin: 2%;
+	bottom: 50%;
 }
+.menu{
+	width: 100%;
+}
+.social{
+	position: fixed;
+	bottom: 135px;
+	left: 500px;
+
+}
+.social ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social ul li > a{
+
+}
+/*-- Top of the page --*/
+
