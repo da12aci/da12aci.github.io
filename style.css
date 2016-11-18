@@ -1,55 +1,58 @@
 *{font-family: "Calibri Light";}
 
 body{
-	background: black;
-	color: white;
+	background: #FAFAFA;
+	color: black;
 }
 /*-- Top of the page --*/
-header{
-	text-align: center;
-	position: relative;
-	
-}
-h1{
-	font-style: oblique;
-	font-size: 40px;
-	text-align: middle;
-	position: relative;
-}
+
 .menu ul li > a{
 	text-decoration: none !important;
-	text-align: center;
 	list-style: none;
-	color: white;
+	color: #FAFAFA;
 	font-style: oblique;
 	font-size: 24px;
-	display: inline-block;
+	border-color: 2px solid #000000;
+	padding: 1%;
 
-}
-.menu ul li :hover{
-	display: inline-block;
-	color: #FFBA38;
 }
 .menu ul li{
 	display: inline-block;
 	margin: 2%;
-	bottom: 50%;
+}
+.menu ul li :hover{
+	color: #D4AF37;
+
+}
+.menu ul{
+	background-color: #000000;
 }
 .menu{
 	width: 100%;
+	position: relative;
+	bottom: 30px;
+	text-align: center;
+
+}
+.daniel{
+	font-size: 96px;
+	text-align: center;
+	margin-top: -170px;
+	color: #D4AF37;
+}
+.webd{
+	font-size: 70px;
+	text-align: center;
+	margin-top: -140px;
+	color: #D4AF37;
 }
 .social{
-	position: fixed;
-	bottom: 135px;
-	left: 500px;
-
-}
-.social ul li{
+	position: relative;
+	display: block;
 	list-style: none;
-	display: inline-block;
+	text-decoration: none !important;
+	text-align: center;
+	margin: 0 auto;
 }
-.social ul li > a{
-
-}
-/*-- Top of the page --*/
+/*-- END Top of the page --*/
 
