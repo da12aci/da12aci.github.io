@@ -1,58 +1,111 @@
-*{font-family: "Calibri Light";}
+
 
 body{
 	background: #FAFAFA;
 	color: black;
 }
-/*-- Top of the page --*/
 
-.menu ul li > a{
-	text-decoration: none !important;
-	list-style: none;
+/*--START Top of the page --*/
+
+.cv{
 	color: #FAFAFA;
 	font-style: oblique;
 	font-size: 24px;
-	border-color: 2px solid #000000;
-	padding: 1%;
-
-}
-.menu ul li{
-	display: inline-block;
-	margin: 2%;
-}
-.menu ul li :hover{
-	color: #D4AF37;
-
-}
-.menu ul{
-	background-color: #000000;
-}
-.menu{
-	width: 100%;
+	background-color: red;
 	position: relative;
-	bottom: 30px;
-	text-align: center;
-
+	text-align: left;
+	font-family: 'Slabo 27px', serif;
+	margin-bottom: 2%;
+	border-bottom-color: #FAFAFA;
+	position: relative;
 }
+
+.cv:hover{
+	color: #FFBA38;
+}
+
+.titles{
+	background: red;
+	border-bottom: 1px solid red;
+	margin-top: -8%;
+}
+
 .daniel{
-	font-size: 96px;
+	font-size: 106px;
 	text-align: center;
 	margin-top: -170px;
-	color: #D4AF37;
+	color: #FAFAFA;
+	font-family: 'Bungee Inline', cursive;
 }
 .webd{
-	font-size: 70px;
+	font-size: 90px;
 	text-align: center;
 	margin-top: -140px;
-	color: #D4AF37;
+	color: #FAFAFA;
+	font-family: 'Bungee Inline', cursive;
 }
-.social{
+
+.media{
 	position: relative;
 	display: block;
-	list-style: none;
-	text-decoration: none !important;
 	text-align: center;
-	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	
 }
+.media img{
+	width: 3%;
+	height: 3%;
+	margin: 6%;
+	margin-top: -5%;
+	text-decoration: none !important;
+
+}
+.details{
+	font-family: 'Bungee Inline', cursive;
+	color: #FAFAFA;
+	position: relative;
+	text-align: center;
+	background: red;
+	border-bottom: 1px solid red;
+	width: 100%;
+}
+
+.details .detail {
+	width: 33.3%;
+	position: relative;
+	float: left;
+}
+
+
 /*-- END Top of the page --*/
 
+/*-- START of the body --*/
+main{
+		background: red;
+}
+
+main h1{
+	background: red;
+	color: #FAFAFA;
+	font-family: 'Bungee Inline', cursive;
+
+}
+article{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	background: red;
+	color: #FAFAFA;
+	margin-top: -1%
+}
+/*-- END of the body --*/
+
+/*-- START of the footer --*/
+footer h2{
+	background: red;
+	color: #FAFAFA;
+	font-family: 'Bungee Inline', cursive;
+	border-bottom: 20px solid red;
+}
+
+/*-- END of the body --*/
